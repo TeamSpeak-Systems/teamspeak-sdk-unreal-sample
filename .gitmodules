@@ -1,0 +1,4 @@
+[submodule "sdk_unreal_plugin"]
+	path = Plugins
+	url = ../teamspeak-sdk-unreal.git
+	branch = master

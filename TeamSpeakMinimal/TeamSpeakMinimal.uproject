@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.7",
+	"Category": "",
+	"Description": "Mimimal TeamSpeak SDK integration sample.",
+	"Modules": [
+		{
+			"Name": "TeamSpeakMinimal",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "TeamSpeak_SDK",
+			"Enabled": true,
+			"SupportedTargetPlatforms": [
+				"Win64",
+				"Linux",
+				"Mac",
+				"Android",
+				"IOS"
+			]
+		}
+	],
+	"AdditionalPluginDirectories": [
+		"../Plugins"
+	],
+	"TargetPlatforms": [
+		"Windows",
+		"Linux",
+		"Mac",
+		"Android",
+		"IOS"
+	]
+}
